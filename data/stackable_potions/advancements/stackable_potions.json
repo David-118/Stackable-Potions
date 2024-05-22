@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon" : {
+      "id" : "minecraft:potion"
+    },
+    "title" : "Stackable Potions",
+    "frame" : "challenge",
+    "description" : "Allows potions to stack up to 16", 
+    "background": "minecraft:textures/block/black_concrete.png",
+    "show_toast": false,
+    "annouce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "functions": "stackable_potions:enable"
+  }
+}
