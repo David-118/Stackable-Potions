@@ -1,6 +1,8 @@
 # Stackable Potions
 
-This datapack makes potions stackable.
+This datapack has two major features
 
-Any potion that has been in a players inventory for 3s will be made stackable to 16
+Any potions in a players inventory will be made stackable within 3 seconds.
 
+Running the command `/trigger StackablePotionsTrigger` will make the content of a chest/barrel etc... will made stackable
+Inventoryies directly ajacent will also be made stackable to ensure it works on double chests.
