@@ -34,3 +34,5 @@ execute if items entity @s container.32 *[max_stack_size=1,minecraft:potion_cont
 execute if items entity @s container.33 *[max_stack_size=1,minecraft:potion_contents] run item modify entity @s container.33 stackable_potions:make_stackable
 execute if items entity @s container.34 *[max_stack_size=1,minecraft:potion_contents] run item modify entity @s container.34 stackable_potions:make_stackable
 execute if items entity @s container.35 *[max_stack_size=1,minecraft:potion_contents] run item modify entity @s container.35 stackable_potions:make_stackable
+
+title @s actionbar [{"text":"Your ", "color":"yellow"}, {"text":"Potions", "color":"dark_purple"}, {"text":" are now stackable", "color":"yellow"}]
