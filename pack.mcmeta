@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 45,
+    "pack_format": 47,
     "description": [{"text":"Stackable Potions","color":"gold"},{"text":"\nAdds stackable potions","color":"yellow"}]
   }
 }
