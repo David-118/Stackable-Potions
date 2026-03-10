@@ -1,9 +1,21 @@
 {
-  "pack": {
-    "pack_format": 48,
-    "min_format": 48,
-    "max_format": 100,
-    "supported_formats": [48, 100],
-    "description": [{"text":"Stackable Potions","color":"gold"},{"text":"\nAdds stackable potions","color":"yellow"}]
-  }
+    "pack": {
+        "pack_format": 48,
+        "min_format": 48,
+        "max_format": 101,
+        "supported_formats": [
+            48,
+            101
+        ],
+        "description": [
+            {
+                "text": "Stackable Potions",
+                "color": "gold"
+            },
+            {
+                "text": "\nAdds stackable potions",
+                "color": "yellow"
+            }
+        ]
+    }
 }
